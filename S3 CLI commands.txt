@@ -1,0 +1,10 @@
+'# CLI commands for AWS S3'
+
+aws s3api create-bucket --bucket buck1-bucket --region us-east-1	'#Create an S3 bucket with name buck1-bucket'
+
+
+
+aws s3 cp /d/Users/mannavar/Desktop/aws1.txt s3://buck1-bucket/aws.txt	'#copy  aws1.txt file to the S3 buck1-bucket '
+
+
+upload: ..\Desktop\aws1.txt to s3://buck1-bucket/aws.txt 	'#response to the copy command'
